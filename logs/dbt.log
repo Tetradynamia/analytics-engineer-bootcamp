@@ -1,0 +1,49 @@
+
+
+============================== 2023-02-18 11:03:40.619478 | 7d4cb63b-a7c3-4bdb-a820-eb7bfb5ca385 ==============================
+[0m11:03:40.619478 [info ] [MainThread]: Running with dbt=1.4.1
+[0m11:03:40.621469 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/eeku/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'project_name': 'ae-bootcamp', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m11:03:40.621708 [debug] [MainThread]: Tracking: tracking
+[0m11:03:40.623183 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe834387880>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe8343e5600>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe8343e5540>]}
+[0m11:03:40.623778 [info ] [MainThread]: Creating dbt configuration folder at /home/eeku/.dbt
+[0m11:04:22.219100 [debug] [MainThread]: Starter project path: /home/eeku/Työpöytä/analytic-engineer-bootcamp/dbt-env/lib/python3.10/site-packages/dbt/include/starter_project
+[0m11:09:23.078697 [info ] [MainThread]: Profile ae_bootcamp written to /home/eeku/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m11:09:23.079929 [info ] [MainThread]: 
+Your new dbt project "ae_bootcamp" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m11:09:23.080310 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe8343e64a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe8320a3a90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe8320a0f10>]}
+[0m11:09:23.080641 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2023-02-18 11:10:12.374470 | 401c88ee-8a6b-4a1a-81b2-86b948b2c17c ==============================
+[0m11:10:12.374470 [info ] [MainThread]: Running with dbt=1.4.1
+[0m11:10:12.375910 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/eeku/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'config_dir': False, 'which': 'debug', 'indirect_selection': 'eager'}
+[0m11:10:12.376105 [debug] [MainThread]: Tracking: tracking
+[0m11:10:12.377509 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe824bc2200>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe824b63a60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe824b638b0>]}
+[0m11:10:12.700460 [debug] [MainThread]: Executing "git --help"
+[0m11:10:12.702466 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m11:10:12.702698 [debug] [MainThread]: STDERR: "b''"
+[0m11:10:12.710770 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m11:10:12.711322 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m11:10:18.774405 [debug] [MainThread]: BigQuery adapter: Got an error when attempting to create a bigquery client: 'Runtime Error
+  
+  dbt encountered an error while trying to read your profiles.yml file.
+  
+  Could not automatically determine credentials. Please set GOOGLE_APPLICATION_CREDENTIALS or explicitly create credentials and re-run the application. For more information, please see https://cloud.google.com/docs/authentication/getting-started
+  '
+[0m11:10:18.775909 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe82289b8b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe822898220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fe82289b700>]}
+[0m11:10:18.776837 [debug] [MainThread]: Flushing usage events
+[0m11:10:19.434507 [debug] [MainThread]: Connection 'debug' was properly closed.
